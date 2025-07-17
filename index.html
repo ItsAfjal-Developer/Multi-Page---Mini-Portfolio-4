@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="icon" href="https://images.icon-icons.com/3053/PNG/96/adobe_portfolio_macos_bigsur_icon_190434.png"
+    type="image/x-icon">
+  <link rel="stylesheet" href="/style.css">
+
+  <!--- google font link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <main>
+
+    <!--- #Sidebar-->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Md Afjal" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Md Afjal">Md Afjal</h1>
+          <p class="title">Frontend Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator">
+        </div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Gmail</p>
+              <a href="mailto:md.afjal0101janam@gmail.com" class="contact-link">md.afjal0101janam@gmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+12133522795" class="contact-link">+91 8700844481</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="1982-06-23">11 December, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Noida Sec - 71, India</address>
+            </div>
+          </li>
+
+        </ul>
+
+        <div class="separator">
+        </div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <!--- #main-content-->
+
+    <div class="main-content">
+
+      <!--- #Navbar-->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!--- #About-->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hello! I'm Md Afjal, a passionate and self-motivated Frontend Developer with a Deep Interest in Building
+            Modern, Responsive and User-Friendly Web Interfaces. With a Strong foundation in HTML, CSS, JavaScript and
+            React, I Enjoy bringing ideas to life through Clean and Efficient Code.
+          </p>
+
+          <p>
+            My journey into Web Development began with Curiosity: “How do Websites work behind the Scenes?” This
+            Curiosity soon turned into Self-driven Learning, Coding late into the Night and Building Real Projects from
+            Scratch. Over time, I transformed that initial spark into Strong skills in HTML, CSS, JavaScript and React,
+            along with a growing interest in performance Optimization, Responsive Design and UI/UX principles.
+          </p>
+        </section>
+
+        <!--- service-->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Design</h4>
+                <p class="service-item-text">
+                  Designing Elegant, Modern Interfaces with Precision and Professional-Grade Quality.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Development</h4>
+                <p class="service-item-text">
+                  Creating High-Performance, Fully Responsive Websites using Modern Web Development Practices.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--- testimonials-->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Md.Afjal" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Rahul Chauhan</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I hired Md Afjal to Design and Develop a Complete Website for my business and I'm Extremely
+                    Satisfied with the Results. He Understood the requirements Clearly, Maintained Constant
+                    Communication and Delivered a Clean, Responsive and Professional-looking Site. His dedication and
+                    eye for detail Really Impressed Me. I highly recommend him for any Web Development Project."
+                    — Rahul Chauhan, Client.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Priyanka" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Priyanka Singh</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    "Working with Md Afjal was an excellent Experience from Start to Finish. I Approached him to build a
+                    Clean, Modern Website for my Personal Brand and He delivered exactly what I had Envisioned — and
+                    more. His Creativity in Design, Strong Grasp of Responsive Layout and Ability to bring Ideas to
+                    life really Stood Out. He was also Patient, Professional and Always Open to Feedback. I'm beyond
+                    happy with the Final Result."
+                    — Priyanka Singh.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Pradeep Kaul" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Pradeep Kaul</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    "Md Afjal is a talented and disciplined developer who brings both creativity and precision to his
+                    work. I Approached him with a Rough idea for a Website and he turned it into a Well-Structured,
+                    Responsive and Beautifully Designed Platform. He not only met deadlines but also added thoughtful
+                    touches to improve User Experience and Design Consistency. What impressed me the most was his
+                    ability to listen, Understand Project Goals and translate them into Clean, Functional Code. Afjal
+                    is someone who takes ownership of his work, and I highly recommend him for any Web Development
+                    Needs."
+                    — Pradeep Kaul.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--- testimonials modal-->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Rahul Chauhan" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Rahul Chauhan</h4>
+
+              <time datetime="2025-07-15">15 July, 2025</time>
+
+              <div data-modal-text>
+                <p>
+                  I hired Md Afjal to Design and Develop a Complete Website for my business and I'm Extremely
+                  Satisfied with the Results. He Understood the requirements Clearly, Maintained Constant
+                  Communication and Delivered a Clean, Responsive and Professional-looking Site. His dedication and
+                  eye for detail Really Impressed Me. I highly recommend him for any Web Development Project."
+                  — Rahul Chauhan, Client.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+      </article>
+
+      <!--- #Resume-->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Global Institute of Information Technology</h4>
+              <span>2023 — 2025</span>
+
+              <p class="timeline-text">
+                Master of Computer Application , AKTU
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Global Institute of Information Technology</h4>
+              <span>2020 — 2023</span>
+
+              <p class="timeline-text">
+                Bachelor of Computer Application , CCSU
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Modern National Public School</h4>
+              <span>2020</span>
+
+              <p class="timeline-text">
+                Intermediate
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Software Development Engineer Intern</h4>
+              <span>June 2025 — Present</span>
+
+              <p class="timeline-text">
+                As a Software Development Engineer Intern at Bluestock Fintech, I collaborated with a remote team to
+                develop an IPO Web Application, contributing to both frontend and backend development. Using React.js, I
+                Implemented Responsive, Modular UI Components based on Figma Designs and Integrated for Dynamic Data
+                Visualization. On the Backend, I helped build and test RESTful APIs, working with a PostgreSQL Database
+                to ensure efficient Data Management. We followed a structured Git Workflow using version control and
+                branching strategies for Collaborative Development. I also contributed to Comprehensive Technical
+                Documentation, Covering System Architecture, API Design and Deployment Processes.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Web Development Intern</h4>
+              <span>Sep 2024 - Oct 2024</span>
+
+              <p class="timeline-text">
+                During my virtual internship at Octanet Services Pvt. Ltd., I worked collaboratively in a remote team
+                environment to design and develop responsive web pages using HTML, CSS, and JavaScript. I implemented
+                interactive user interface components and optimized website performance for various devices. This
+                experience allowed me to gain practical exposure to client-side scripting and apply responsive design
+                techniques in real-world project simulations, significantly enhancing my front-end development skills.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Web Development Intern</h4>
+              <span>Oct 2023 - Nov 2023</span>
+
+              <p class="timeline-text">
+                During my virtual internship at Bharat Intern, I acquired practical experience in designing and
+                developing responsive web applications. This opportunity enabled me to bridge the gap between theory and
+                real-world application, while sharpening my front-end development skills and deepening my understanding
+                of web technologies.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Figma</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">HTML,CSS & JavaScript</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Reactjs</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--- #Portfolio-->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>
+                Select category
+              </div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web Development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://lnkd.in/gz5C_xXS" target="_blank">
+
+                <figure class="project-img">
+
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Project - 9.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Mini Portfolio - 3</h3>
+
+                <p class="project-category">Web Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://lnkd.in/gEx7fiS3" target="_blank">
+
+                <figure class="project-img">
+
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Project - 1.png" alt="Portfolio" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Mini Portfolio - 2</h3>
+
+                <p class="project-category">Web Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://lnkd.in/gmxkpZRz" target="_blank">
+
+                <figure class="project-img">
+
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Project - 4.png" alt="Temperature Converter" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Temperature Converter</h3>
+
+                <p class="project-category">Web Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://lnkd.in/ghNhmTnY" target="_blank">
+
+                <figure class="project-img">
+
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Project - 5.png" alt="cold brew" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Cold Brew Coffee</h3>
+
+                <p class="project-category">Web Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://lnkd.in/gvJatn3F" target="_blank">
+
+                <figure class="project-img">
+
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Project - 3.png" alt="Honorwatch" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Honor Watch</h3>
+
+                <p class="project-category">Web Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://lnkd.in/grJ2RGyp" target="_blank">
+
+                <figure class="project-img">
+
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Project - 2.png" alt="Portfolio" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Mini Portfolio - 1</h3>
+
+                <p class="project-category">Web Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://lnkd.in/g-89TyM8" target="_blank">
+
+                <figure class="project-img">
+
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Project - 6.png" alt="nature" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Leaf Nature</h3>
+
+                <p class="project-category">Web Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://lnkd.in/g_SPjGnc" target="_blank">
+
+                <figure class="project-img">
+
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Project - 7.png" alt="BrandTASK" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brand</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://lnkd.in/geXBB_p2" target="_blank">
+
+                <figure class="project-img">
+
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Project - 8.png" alt="NIKE" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Nike Brand</h3>
+
+                <p class="project-category">Web Development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--- #Blog-->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design Conferences in 2024" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Driven by purpose, we commit to work that matters — without compromise or distraction.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best Fonts Every Designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+                    <span class="dot"></span>
+                    <time datetime="2024-11-23">Nov 23, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts Every Designer</h3>
+
+                  <p class="blog-text">
+                    We are truly free when we have the time and freedom to choose what we love to do.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design Digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+                    <span class="dot"></span>
+                    <time datetime="2025-02-23">Feb 23, 2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design Digest #90</h3>
+
+                  <p class="blog-text">
+                    Freedom is found in the moments when we can choose without restrictions and follow our own path.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+                    <span class="dot"></span>
+                    <time datetime="2022-02-23">Apr 30, 2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    We aim for excellence through focus, dedication, and meaningful work — nothing more, nothing less
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--- #Contact-->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14012.652544052286!2d77.36584674712392!3d28.594882401477875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce57fae192d6f%3A0x1735521b82bcc593!2sSector%2071%2C%20Noida%2C%20Uttar%20Pradesh%20201307!5e0!3m2!1sen!2sin!4v1752778112763!5m2!1sen!2sin"
+              width="400" height="300" loading="lazy">
+            </iframe>
+
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!--- custom js link-->
+  <script src="./assets/js/script.js"></script>
+
+  <!--- ionicon link-->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
