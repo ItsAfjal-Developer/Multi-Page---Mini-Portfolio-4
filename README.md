@@ -15,18 +15,31 @@
 
 ## Tech Stack
 
-- HTML5: For structuring the content of the website.
+- HTML5 : For structuring the content of the website.
 
-- CSS3: For all styling, animations, and responsive design.
+- CSS3 : For all styling, animations, and responsive design.
 
 - JavaScript (ES6+): For interactivity, such as the mobile menu toggle and any other dynamic behaviors.
 
 ## Screenshots
 
-Below is a Preview of **Multi Page Mini-Portfolio - 4**, Showcasing the Layout and Styling implemented Using pure HTML and CSS. 
-The Design focuses on Clean Structure, Responsiveness and Modern Styling.
+Below is a Preview of **Multi Page Mini-Portfolio - 4**,<br/>
+Showcasing the Layout and Styling implemented Using pure HTML , CSS and JavaScript. The Design focuses on Clean Structure, Responsiveness and Modern Styling.
 
-<img src="./Images/Portfolio.png" alt="Multi Page Mini-Portfolio - 4 Preview" width="100%" />
+- About Page :
+<img src="./assets/images/About Page.png" alt="Multi Page Mini-Portfolio - 4 Preview" width="100%" />
+
+- Resume Page :
+<img src="./assets/images/Resume Page.png" alt="Multi Page Mini-Portfolio - 4 Preview" width="100%" />
+
+- Portfolio Page :
+<img src="./assets/images/Portfolio.png" alt="Multi Page Mini-Portfolio - 4 Preview" width="100%" />
+
+- Blog Page :
+<img src="./assets/images/Blog Page.png" alt="Multi Page Mini-Portfolio - 4 Preview" width="100%" />
+
+- Resume Page :
+<img src="./assets/images/Contact Page.png" alt="Multi Page Mini-Portfolio - 4 Preview" width="100%" />
 
 ### Author
 
