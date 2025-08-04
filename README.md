@@ -40,9 +40,3 @@ Showcasing the Layout and Styling implemented Using pure HTML , CSS and JavaScri
 
 - Resume Page :
 <img src="./assets/images/Contact Page.png" alt="Multi Page Mini-Portfolio - 4 Preview" width="100%" />
-
-### Author
-
-Md Afjal
-
-GitHub : [ItsAfjal-Developer](https://github.com/ItsAfjal-Developer)
